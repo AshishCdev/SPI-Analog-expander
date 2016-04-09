@@ -1,0 +1,9 @@
+#Example
+In python using spidev module
+
+import spidev
+spi = spidev.SpiDev()
+spi.open(0,0)                           # SPI 0, device 0
+input_ch = [1]                          # ADC1 of ATMEGA16
+raw=(spi.xfer(input_ch))                # radome vale stored in SPI data Register
+ADC_val = (spi.xfer(input_ch))          # Now ATMEGA16 will return the ADC value of last channel. In this case ADC1
