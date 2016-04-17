@@ -9,7 +9,7 @@ tested with ATMEGA16
 8 bit digital output with 10.24 mV step size.
 3us conversion time @ 16Mhz
 
-#settings
+#Settings
 16 Mhz external XTAL
 Fuse bit values for low bit 0xC9
                     high bit 0xFF
