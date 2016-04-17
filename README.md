@@ -15,5 +15,5 @@ Fuse bit values for low bit 0xC9
                     high bit 0xFF
 
 #Data Frames
-Since this module uses SPI, first we need to sent the input channel number of ADC. After the first byte of data it sends the analog value of targeted channel.
+Since this module uses SPI, first we need to send the input channel number of ADC. After the first byte of data it sends the analog value of targeted channel.
 
